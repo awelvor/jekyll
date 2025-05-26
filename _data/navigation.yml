@@ -1,14 +1,14 @@
 ---
 - name: Home
-  link: /
+  link: https://awelvor.github.io/jekyll/
 - name: About
-  link: /about.html
+  link: https://awelvor.github.io/jekyll//about.html
 - name: Blog
-  link: /blog.html
+  link: https://awelvor.github.io/jekyll//blog.html
 - name: Staff
-  link: /staff.html
+  link: https://awelvor.github.io/jekyll/staff.html
 - name: Personnes
-  link: /personnes.html
+  link: https://awelvor.github.io/jekyll//personnes.html
 - name: Membres
-  link: /membres.html
+  link: https://awelvor.github.io/jekyll//membres.html
   
