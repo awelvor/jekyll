@@ -1,0 +1,6 @@
+<h2>Nos Membres</h2>
+<ul>
+  {% for membre in site.data.membres %}
+    <li>{{ membre.nom }} ({{ membre.role }}), {{ membre.age }} ans</li>
+  {% endfor %}
+</ul>

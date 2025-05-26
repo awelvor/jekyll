@@ -1,0 +1,9 @@
+- nom: Alice
+  role: Développeuse
+  age: 30
+- nom: Bob
+  role: Designer
+  age: 25
+- nom: Charlie
+  role: Chef de projet
+  age: 35
