@@ -1,5 +1,6 @@
 
-url: https://google.fr
+baseurl: "/example" # the subpath of your site, e.g. /blog/
+url: "http://jekyll.github.io" # the base hostname & protocol for your site
 collections:
   authors:
     output: true
