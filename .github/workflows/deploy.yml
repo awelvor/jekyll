@@ -5,8 +5,6 @@ on:
   push:
     branches: ["main"]
 
-  # Permet l'exécution manuelle du workflow depuis l'onglet Actions
-  workflow_dispatch:
 
 # Permet au workflow d'accéder aux autorisations nécessaires
 permissions:
