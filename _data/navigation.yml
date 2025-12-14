@@ -1,9 +1,9 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: /awelvor/about.html
 - name: Blog
-  link: /blog.html
+  link: /awelvor/blog.html
 - name: Staff
-  link: /staff.html
+  link: /awelvor/staff.html
 
