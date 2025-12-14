@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/assets/css/styles.css" />
+<meta property="og:url" content="http://localhost:4000/assets/css/styles.css" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","url":"http://localhost:4000/assets/css/styles.css"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  
+  <body>
+  <div class="container">
+    <nav>
+  
+    <a href="/">Home</a>
+  
+    <a href="/about.html">About</a>
+  
+    <a href="/blog.html">Blog</a>
+  
+    <a href="/staff.html">Staff</a>
+  
+</nav>
+    @import "main";
+    </div>
+  </body>
+</html>
