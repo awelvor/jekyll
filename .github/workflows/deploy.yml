@@ -1,0 +1,63 @@
+name: Deployer le site sur Pages
+
+on:
+  # Déclenche le workflow à chaque push sur la branche 'main'
+  push:
+    branches: ["main"]
+
+  # Permet l'exécution manuelle du workflow depuis l'onglet Actions
+  workflow_dispatch:
+
+# Permet au workflow d'accéder aux autorisations nécessaires
+permissions:
+  contents: read
+  pages: write # Nécessaire pour l'action actions/deploy-pages@v4
+  id-token: write # Nécessaire pour l'authentification OIDC
+
+# Annule les exécutions précédentes si une nouvelle est déclenchée
+concurrency:
+  cancel-in-progress: true
+  group: pages
+
+jobs:
+  # 1. JOB DE CONSTRUCTION
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (Récupérer le code)
+        # Utilise l'action officielle pour cloner le dépôt
+        uses: actions/checkout@v4
+
+      # Étape facultative pour une construction simple (ici, le site est déjà construit)
+      # Pour un site statique simple, on peut considérer que les fichiers sources sont les fichiers de sortie.
+      # Si vous utilisiez un outil comme Jekyll ou Next.js, la commande 'npm run build' serait ici.
+
+      - name: Configuration de l'environnement Pages
+        # Action officielle pour préparer l'environnement de déploiement
+        uses: actions/configure-pages@v5
+
+      - name: Télécharger l'artefact Pages
+        # Utilise l'action pour télécharger le dossier qui sera déployé.
+        # Le contenu du dossier `_site` sera l'artefact. 
+        # Si votre site est à la racine du dépôt, utilisez `./`
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Assurez-vous que ce chemin est le dossier Racine de votre site web !
+          path: './' 
+
+  # 2. JOB DE DÉPLOIEMENT
+  deploy:
+    # Ce job ne s'exécute qu'après la réussite du job 'build'
+    needs: build
+    environment:
+      # L'environnement 'github-pages' est obligatoire pour le déploiement
+      name: github-pages
+      # Récupère l'URL du site pour l'affichage dans l'interface GitHub
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Déployer vers GitHub Pages
+        id: deployment
+        # L'action principale qui effectue la publication de l'artefact
+        uses: actions/deploy-pages@v4
