@@ -1,0 +1,26 @@
+---
+layout: cyclos
+title: Cyclos
+---
+<h1>Cyclos</h1>
+
+
+<script>
+
+html  = '<div class="container col-9">';
+html += '<table class="table table-hover table-sm table-secondary"><tbody>';
+cyclos.forEach(function(el){
+		html += "<tr>";
+		html += "<td>"+el.prenom+"</td>";
+		html += "<td>"+el.nom+"</td>";
+		html += "<td>"+el.port+"</td>";
+		html += "<td><a href=mailto:'"+el.email+"'>"+el.email+"</a></td>";
+		html += "<td>"+el.dat+"</td>";
+		html += "</tr>";
+	}); 
+	html += '</tbody></table>';
+	html += '</div>';
+document.write (html);
+
+</script>
+<p> end of file </p>
