@@ -1,9 +1,9 @@
 - name: Home
-  link: /
+  link: /jekyll/index.html
 - name: About
-  link: /awelvor/about.html
+  link: /jekyll/about.html
 - name: Blog
-  link: /awelvor/blog.html
+  link: /jekyll/blog.html
 - name: Staff
-  link: /awelvor/staff.html
+  link: /jekyll/staff.html
 
