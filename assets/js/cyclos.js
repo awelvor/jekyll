@@ -1,28 +1,31 @@
+// cyclos.js
 
+const cyclos = [
 
-constant cyclos = [
-
-{nom:'adam', prenom:'michel', port:'06 59 68 77 41',email:'michel.adam222@gmail.com', dat:'2025-12-12'}
-{nom:'buzulier', prenom:'nadine', port:'06 89 60 41 50',email:'nadine.buzulier@wanadoo.fr', dat:'2025-12-12'}
-{nom:'buzulier', prenom:'jean-françois', port:'06 89 60 41 50',email:'nadine.buzulier@wanadoo.fr', dat:'2025-12-12'}
-{nom:'billard', prenom:'roland', port:'06 52 28 34 99',email:'billardroland@free,fr', dat:'2025-12-12'}
-{nom:'caron', prenom:'pascal', port:'',email:'pascal22297@gmail.com', dat:'2025-12-12'}
-{nom:'collet', prenom:'jean-claude', port:'06 85 92 43 95',email:'jcf.collet@orange.fr', dat:'2025-12-12'}
-{nom:'delbarba', prenom:'parice', port:'06 10 99 73 80',email:'patricedelbarba@orange.fr', dat:'2025-12-12'}
-{nom:'huon', prenom:'mylène', port:'06 83 46 29 00',email:'mylene.huon@wanadoo.fr', dat:'2025-12-12'}
-{nom:'le bivic', prenom:'alain', port:'06 02 24 42 67',email:'ale-bivic@wanadoo.fr', dat:'2025-12-12'}
-{nom:'le tacon ', prenom:'robert', port:'06 73 45 97 10',email:'boblan@orange.fr', dat:'2025-12-12'}
-{nom:'le voguer', prenom:'ghislaine', port:'06 79 98 58 89',email:'gilevoguer@gmail.com', dat:'2025-12-12'}
-{nom:'melscoet', prenom:'pierre', port:'06 75 56 94 23 ',email:'n.melscoet@orange.fr', dat:'2025-12-12'}
-{nom:'moy', prenom:'jean', port:'06 50 74 36 14',email:'jean.moy@wanadoo.fr', dat:'2025-12-12'}
-{nom:'paimparay', prenom:'francis', port:'06 17 18 80 99',email:'francis.paimparay@orange.fr', dat:'2025-12-12'}
-{nom:'penche', prenom:'monique', port:'06 76 82 31 21',email:'monik.penche@orange.fr', dat:'2025-12-12'}
-{nom:'perrin', prenom:'françois', port:'06 52 29 80 17',email:'francoisperrin22@aol.com', dat:'2025-12-12'}
-{nom:'philip', prenom:'julien', port:'06 81 13 03 80',email:'juphilip@orange .fr', dat:'2025-12-12'}
-{nom:'poinsu', prenom:'claude', port:'06 84  50 03 38',email:'poinsu.claude@orange.fr', dat:'2025-12-12'}
-{nom:'prigent', prenom:'yves', port:'06 89 15 35 34',email:'yves.prigent0791@orange.fr', dat:'2025-12-12'}
-{nom:'regent', prenom:'philippe', port:'06 38 34 85 15',email:'philippe.regent@gmail.com', dat:'2025-12-12'}
-{nom:'thereze', prenom:'jean-marie', port:'06 52 51 75 23 ',email:'mjmthereze@gmail.com', dat:'2025-12-12'}
-{nom:'thereze', prenom:'monique', port:'06 72 73 16 59',email:'mjmthereze@gmail.com', dat:'2025-12-12'}
+{nom:'adam', prenom:'michel', port:'06 59 68 77 41',email:'michel.adam222@gmail.com', dat:'2025-12-12'},
+{nom:'buzulier', prenom:'nadine', port:'06 89 60 41 50',email:'nadine.buzulier@wanadoo.fr', dat:'2025-12-12'},
+{nom:'buzulier', prenom:'jean-françois', port:'06 89 60 41 50',email:'nadine.buzulier@wanadoo.fr', dat:'2025-12-12'},
+{nom:'billard', prenom:'roland', port:'06 52 28 34 99',email:'billardroland@free,fr', dat:'2025-12-12'},
+{nom:'caron', prenom:'pascal', port:'',email:'pascal22297@gmail.com', dat:'2025-12-12'},
+{nom:'collet', prenom:'jean-claude', port:'06 85 92 43 95',email:'jcf.collet@orange.fr', dat:'2025-12-12'},
+{nom:'delbarba', prenom:'parice', port:'06 10 99 73 80',email:'patricedelbarba@orange.fr', dat:'2025-12-12'},
+{nom:'huon', prenom:'mylène', port:'06 83 46 29 00',email:'mylene.huon@wanadoo.fr', dat:'2025-12-12'},
+{nom:'le bivic', prenom:'alain', port:'06 02 24 42 67',email:'ale-bivic@wanadoo.fr', dat:'2025-12-12'},
+{nom:'le tacon ', prenom:'robert', port:'06 73 45 97 10',email:'boblan@orange.fr', dat:'2025-12-12'},
+{nom:'le voguer', prenom:'ghislaine', port:'06 79 98 58 89',email:'gilevoguer@gmail.com', dat:'2025-12-12'},
+{nom:'melscoet', prenom:'pierre', port:'06 75 56 94 23 ',email:'n.melscoet@orange.fr', dat:'2025-12-12'},
+{nom:'moy', prenom:'jean', port:'06 50 74 36 14',email:'jean.moy@wanadoo.fr', dat:'2025-12-12'},
+{nom:'paimparay', prenom:'francis', port:'06 17 18 80 99',email:'francis.paimparay@orange.fr', dat:'2025-12-12'},
+{nom:'penche', prenom:'monique', port:'06 76 82 31 21',email:'monik.penche@orange.fr', dat:'2025-12-12'},
+{nom:'perrin', prenom:'françois', port:'06 52 29 80 17',email:'francoisperrin22@aol.com', dat:'2025-12-12'},
+{nom:'philip', prenom:'julien', port:'06 81 13 03 80',email:'juphilip@orange .fr', dat:'2025-12-12'},
+{nom:'poinsu', prenom:'claude', port:'06 84  50 03 38',email:'poinsu.claude@orange.fr', dat:'2025-12-12'},
+{nom:'prigent', prenom:'yves', port:'06 89 15 35 34',email:'yves.prigent0791@orange.fr', dat:'2025-12-12'},
+{nom:'regent', prenom:'philippe', port:'06 38 34 85 15',email:'philippe.regent@gmail.com', dat:'2025-12-12'},
+{nom:'thereze', prenom:'jean-marie', port:'06 52 51 75 23 ',email:'mjmthereze@gmail.com', dat:'2025-12-12'},
+{nom:'thereze', prenom:'monique', port:'06 72 73 16 59',email:'mjmthereze@gmail.com', dat:'2025-12-12'},
 
 ];
+
+// end of file
+
