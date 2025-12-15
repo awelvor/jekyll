@@ -26,6 +26,8 @@ jobs:
         # Utilise l'action officielle pour cloner le dépôt
         uses: actions/checkout@v4
 
+      - name: yamllint _data/cyclos.yml
+
       # Étape facultative pour une construction simple (ici, le site est déjà construit)
       # Pour un site statique simple, on peut considérer que les fichiers sources sont les fichiers de sortie.
       # Si vous utilisiez un outil comme Jekyll ou Next.js, la commande 'npm run build' serait ici.
