@@ -1,3 +1,6 @@
+---
+# _data/navigation.yml
+
 - name: Home
   link: /jekyll/index.html
 - name: About
@@ -8,3 +11,4 @@
   link: /jekyll/staff.html
 - name: Cyclos
   link: /jekyll/cyclos.html
+# end of file
