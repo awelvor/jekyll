@@ -1,9 +1,12 @@
+
 <!-- _includes/navigation.html -->
+  
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<ul class="navbar-nav">
+{% for item in site.data.navigation %}
+<li class="nav-item"> <a class="nav-link active" href="{{ item.link }}">{{ item.name }}</a>
+{% endfor %}
+</ul>
+</nav> 
 
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}"{% if page.url == item.link %} class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
-</nav>
-
-<!-- end of file -->
+<! end of file -->
