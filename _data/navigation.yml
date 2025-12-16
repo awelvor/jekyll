@@ -2,18 +2,18 @@
 # _data/navigation.yml
 
 - name: Home
-  link: /
+  link: /jekyll/index.html
 - name: About
-  link: /awelvor/about.html
+  link: /jekyll/about.html
 - name: Blog
-  link: /awelvor/blog.html
+  link: /jekyll/blog.html
 - name: Staff
-  link: /awelvor/staff.html
+  link: /jekyll/staff.html
 - name: Cyclos
-  link: /awelvor/cyclos.html
+  link: /jekyll/cyclos.html
 - name: Enoria
-  link: /awelvor/enoria.html
+  link: /jekyll/enoria.html
 - name: Brevo
-  link: /awelvor/brevo.html
+  link: /jekyll/brevo.html
 
 # end of file
