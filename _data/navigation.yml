@@ -2,13 +2,18 @@
 # _data/navigation.yml
 
 - name: Home
-  link: /jekyll/index.html
+  link: /
 - name: About
-  link: /jekyll/about.html
+  link: /about.html
 - name: Blog
-  link: /jekyll/blog.html
+  link: /blog.html
 - name: Staff
-  link: /jekyll/staff.html
+  link: /staff.html
 - name: Cyclos
-  link: /jekyll/cyclos.html
+  link: /cyclos.html
+- name: Enoria
+  link: /enoria.html
+- name: Brevo
+  link: /brevo.html
+
 # end of file
