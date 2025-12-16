@@ -4,6 +4,7 @@ collections:
     output: true
   passwords:
     output: true
+theme: jekyll-theme-minimal
 
 defaults:
   - scope:
