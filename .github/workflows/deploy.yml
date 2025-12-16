@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Checkout (Récupérer le code)
         # Utilise l'action officielle pour cloner le dépôt
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
     
       - run: yamllint _data/cyclos.yml
       - run: yamllint _data/navigation.yml
