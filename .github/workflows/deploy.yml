@@ -27,6 +27,7 @@ jobs:
         uses: actions/checkout@v4
       - run: echo "yammlint check"
       - run: yamllint _data/cyclos.yml
+      - run: yamllint _data/navigation.yml
       - run: echo "end of yamllint"
 
 
