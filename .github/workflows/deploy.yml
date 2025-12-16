@@ -28,6 +28,7 @@ jobs:
     
       - run: yamllint _data/cyclos.yml
       - run: yamllint _data/navigation.yml
+      - run: yamllint _config.yml
     
 
 
