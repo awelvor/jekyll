@@ -25,7 +25,7 @@ jobs:
       - name: Checkout (Récupérer le code)
         # Utilise l'action officielle pour cloner le dépôt
         uses: actions/checkout@v4
-      - run: yamllint _daya/cyclos.yml
+      - run: yamllint _data/cyclos.yml
 
 
       # Étape facultative pour une construction simple (ici, le site est déjà construit)
