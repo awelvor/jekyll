@@ -1,0 +1,77 @@
+---
+layout: default
+title: Enoria
+date: 2025-12-15
+---
+<!-- enoria.html -->
+
+  <div class="container">
+    <h1>Hello, world!</h1>
+    
+  <div class="accordion" id="faqAccordion">
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Qu'est-ce que Jekyll ?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Jekyll est un générateur de sites statiques simple, adapté aux blogs personnels, aux sites de portfolio et aux documentations.
+        Il prend votre contenu écrit en Markdown, applique des mises en page Liquid, et génère un site web statique complet, prêt à être déployé.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Comment personnaliser l'apparence de mon site ?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Vous pouvez personnaliser l'apparence en modifiant les fichiers CSS ou Sass de votre projet.
+        Si vous utilisez Bootstrap, vous pouvez surcharger les variables Sass par défaut de Bootstrap ou simplement ajouter vos propres règles CSS pour cibler des classes spécifiques.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Où dois-je mettre les images et autres ressources ?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Les images, fichiers JavaScript et autres ressources statiques sont généralement placés dans le dossier **<code>/assets</code>** (ou **<code>/public</code>**).
+        Vous devez ensuite les référencer dans votre code en utilisant le filtre <code>\{\{ 'chemin/vers/votre/fichier.jpg' | relative_url \}\}</code>.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Puis-je utiliser du Markdown dans le contenu de l'Accordéon ?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Oui, absolument. Le moteur Liquid de Jekyll traitera le contenu Markdown s'il est placé dans un fichier <code>.html</code> 
+        qui utilise l'instruction <code>\{\{ content \}\}</code>. 
+        Dans le cas d'un simple Accordéon HTML/Markdown, vous pouvez écrire votre texte en Markdown (par exemple, <code>**texte en gras**</code>)
+        directement dans le <code>accordion-body</code> si l'Accordéon est dans un fichier Markdown principal.
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>  
+</div>
+<!-- end of file -->
+    
+    
+    
