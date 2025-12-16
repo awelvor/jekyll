@@ -4,16 +4,16 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: /awelvor/about.html
 - name: Blog
-  link: /blog.html
+  link: /awelvor/blog.html
 - name: Staff
-  link: /staff.html
+  link: /awelvor/staff.html
 - name: Cyclos
-  link: /cyclos.html
+  link: /awelvor/cyclos.html
 - name: Enoria
-  link: /enoria.html
+  link: /awelvor/enoria.html
 - name: Brevo
-  link: /brevo.html
+  link: /awelvor/brevo.html
 
 # end of file
