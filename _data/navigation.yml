@@ -4,16 +4,16 @@
 - name: Home
   link: /index.html
 - name: About
-  link: /jekyll/about.html
+  link: /about.html
 - name: Blog
-  link: /jekyll/blog.html
+  link: /blog.html
 - name: Staff
-  link: /jekyll/staff.html
+  link: /staff.html
 - name: Cyclos
-  link: /jekyll/cyclos.html
+  link: /cyclos.html
 - name: Enoria
-  link: /jekyll/enoria.html
+  link: /enoria.html
 - name: Brevo
-  link: /jekyll/brevo.html
+  link: /brevo.html
 
 # end of file
