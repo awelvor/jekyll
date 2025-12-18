@@ -2,7 +2,7 @@
 # _data/navigation.yml
 
 - name: Home
-  link: /jekyll/index.html
+  link: /index.html
 - name: About
   link: /jekyll/about.html
 - name: Blog
