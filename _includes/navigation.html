@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
 <ul class="navbar-nav">
 {% for item in site.data.navigation %}
-<li class="nav-item"> <a class="nav-link active" href="{{ item.link }}">{{ item.name }}</a>
+<li class="nav-item"> <a class="nav-link active" href="{{ item.link|relative_url }}">{{ item.name }}</a>
 {% endfor %}
 </ul>
 </nav> 
