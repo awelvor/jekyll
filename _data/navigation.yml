@@ -15,5 +15,7 @@
   link: /enoria.html
 - name: Brevo
   link: /brevo.html
+- name: Symfony
+  link: /symfony.html
 
 # end of file
