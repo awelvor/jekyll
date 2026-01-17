@@ -111,5 +111,86 @@
   port: 06 72 73 16 59
   email: mjmthereze@gmail.com
   dat: 2025-12-12
+- nom: gouerec
+  prenom: daniel
+  port: 06 85 86 62 99
+  email: dany.gouerec@sfr.fr
+  dat: 2026-01-01
+- nom: rouxel
+  prenom: jean
+  port: 06 89 93 12 11
+  email: rouxel.jean@free.fr
+  dat: 2026-01-01
+- nom: creach
+  prenom: marie-louise
+  port: 06 71 87 63 47
+  email: malou.creach@wanadoo.fr
+  dat: 2026-01-01
+- nom: capitaine
+  prenom: yves
+  port: 06 84 11 27 39
+  email: ycapitaine@sfr.fr
+  dat: 2026-01-01
+- nom: koch
+  prenom: andré
+  port: 06 95 76 13 30
+  email: andre.koch@wanadoo.fr
+  dat: 2026-01-01
+- nom: le-guern
+  prenom: françoise
+  port: 06 70 46 97 23
+  email: le-guern.francoise@orange.fr
+  dat: 2026-01-01
+- nom: alexandre
+  prenom: georges
+  port: 06 82 63 73 49
+  email: jojoalexandre@orange.fr
+  dat: 2026-01-15
+- nom: bossard
+  prenom: michel
+  port: 06 72 98 17 99
+  email: bossardmichel0672@orange.fr
+  dat: 2026-01-15
+- nom: calvez
+  prenom: alain
+  port: 06 14 73 31 35
+  email: alaincalvez22@orange.fr
+  dat: 2026-01-15
+- nom: creach
+  prenom: alain
+  port: 06 84 05 11 02
+  email: alain.creach@wanadoo.fr
+  dat: 2026-01-15
+- nom: pavy
+  prenom: dominique
+  port: 06 07 24 43 19
+  email: bd.pavy@wanadoo.fr
+  dat: 2026-01-15
+- nom: rouxel
+  prenom: jean
+  port: 06 89 93 12 11
+  email: rouxel.jean@free.fr
+  dat: 2026-01-15
+- nom: rouxel
+  prenom: marylene
+  port: 06 04 04 86 72
+  email: mrl22@free.fr
+  dat: 2026-01-15
+- nom: sevennec
+  prenom: marc
+  port: 06 32 30 18 36
+  email: nmsev@free.fr
+  dat: 2026-01-15
+- nom: sevennec
+  prenom: nadine
+  port: 06 80 04 51 92
+  email: sevnm22@gmail,com
+  dat: 2026-01-15
+- nom: dupuy
+  prenom: catherine
+  port: 06 88 98 76 47
+  email: catherine.dupuy22@gmail.com
+  dat: 2026-01-15
+
 
 # end of file
