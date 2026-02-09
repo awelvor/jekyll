@@ -1,0 +1,13 @@
+---
+famille:
+ - id: 1
+   prenom: prosper
+   nom: frappe
+   naissance: 24/12/1912
+   deces: 07/01/1915
+   
+ - id: 2
+   prenom: anne-marie
+   nom: frappe
+   naissance: 06/12/1913
+   deces: 26/04/2013
