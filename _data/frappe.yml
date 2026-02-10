@@ -1,13 +1,15 @@
 ---
 # _data/cyclos.yml
 
-- nom: adam
-  prenom: michel
-  port: 06 59 68 77 41
-  email: michel.adam222@gmail.com
-  dat: 2025-12-12
-- nom: buzulier
-  prenom: nadine
-  port: 06 89 60 41 50
-  email: nadine.buzulier@wanadoo.fr
-  dat: 2025-12-12
+- id: 1
+  prenom: philippe
+  nom: regent
+  port: 06 38 34 85 15
+  email: philippe.regent@gmail.com
+  naissance: 1947-09-07 00:00:00
+- id: 2
+  prenom:
+  nom:
+  port:
+  email:
+  naissance:
