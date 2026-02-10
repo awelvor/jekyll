@@ -17,5 +17,7 @@
   link: /brevo.html
 - name: Symfony
   link: /symfony.html
+- name: frappe
+  link: /frappe.html
 
 # end of file
